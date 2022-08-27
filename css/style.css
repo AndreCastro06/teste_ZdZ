@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color:whitesmoke;
+}
+body nav{
+    background-image: url(https://www.bmwusa.com/content/dam/bmwusa/common/homepage/fmas/2022-08/desktop/BMW-MY23-X6-Homepage-FMA-Desktop.jpg);
+    height: 32rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+body nav ul li {
+  color: red;
+}
+body nav ul li a {
+  color: red;
+}
+body nav ul .forms {
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+body nav ul .forms span {
+  color: green;
+}
+body .bannerCarro {
+ 
+  height: 40rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.formBackground{
+  
+  background-image: url(/img/background_form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  }
+  
+.formBackground H1{
+  background-color: whitesmoke;
+  color:green;
+  text-align: center;
+  
+}
+
+.backgroundform {
+  border-radius: 8px;
+  padding: 120px;
+  background-color: white;
+  color:black;
+  
+
+}
+
+.form-item{
+
+gap: 20px; 
+
+}
+
+
+
+/*# sourceMappingURL=style.css.map */
